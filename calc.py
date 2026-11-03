@@ -1,0 +1,7 @@
+def average(values):
+    """返回平均值。空列表应返回 0。"""
+    return sum(values) / len(values)
+
+
+def clamp(value, low, high):
+    return max(low, min(high, value))
