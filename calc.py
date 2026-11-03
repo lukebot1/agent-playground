@@ -1,5 +1,7 @@
 def average(values):
     """返回平均值。空列表应返回 0。"""
+    if not values:
+        return 0
     return sum(values) / len(values)
 
 
